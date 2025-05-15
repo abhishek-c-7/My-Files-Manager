@@ -1,0 +1,57 @@
+<!-- quiz 2 website using video,audio and iframe without br tag but structured -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My File Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>My Video</h1>
+    <ul>
+        <li>
+            <video src="vdo21.mp4" controls height="445" width="1200" loop autoplay muted poster="poster.jpg"></video>
+        </li>
+        <li>
+            <video src="vdo22.mp4" controls height="445" width="1200" loop muted</video>
+        </li>
+        <li>
+            <video src="vdo23.mp4" controls height="445" width="1200" loop muted</video>
+        </li>
+        <li>
+            <video src="vdo24.mp4" controls height="445" width="1200" loop muted</video>
+        </li>
+    </ul>
+
+    <h1>My Music</h1>
+    <ul>
+        <li><audio src="music1.mp3" controls loop autoplay muted preload="auto"></audio></li>
+        <li><audio src="audio2.mp3" controls loop muted></audio></li>
+        <li><audio src="music3.mp3" controls loop muted></audio></li>
+        <li><audio src="audio4.mp3" controls loop muted></audio></li>
+    </ul>
+    <h1>My Favourite Websites</h1>
+    <ol type="1">
+        <li><iframe src="https://www.codewithharry.com/tutorial/html-iframes" height="155" width="1200"></iframe></li>
+        <li><iframe src="https://www.codewithharry.com/tutorial/html-tables" height="155" width="1200"></iframe></li>
+    </ol>
+    <h1>My Youtube Videoes</h1>
+    <div>
+        <iframe width="1160" height="315" src="https://www.youtube.com/embed/qOg5hf3fpVo?si=gRG62ghngfhHSb7f"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div>
+        <iframe width="1160" height="315"
+            src="https://www.youtube.com/embed/YH6k5weqwy8?si=bKsxalBcVBNGCMvL&amp;start=33"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
